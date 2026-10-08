@@ -1,0 +1,103 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  quality-gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          fetch-depth: 0 # Get all history for Gitleaks scanning
+
+      - name: Run Gitleaks Secret Scanner
+        uses: gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e # v3.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Biome lint + format check
+        run: npx biome check .
+
+      - name: TypeScript type check
+        run: npx tsc --noEmit
+
+      - name: Dependency Audit
+        run: npm audit --audit-level=high
+
+  build:
+    needs: quality-gates
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_BASE_PATH: /taxi_final
+    steps:
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run link:assets || true
+
+      - run: npm run build
+
+      - name: Replace root index.html with redirect to /de/
+        run: |
+          cat > out/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="de">
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="refresh" content="0;url=/taxi_final/de/">
+            <meta name="robots" content="noindex">
+            <script>window.location.href="/taxi_final/de/";</script>
+          </head>
+          <body>
+            <a href="/taxi_final/de/">Weiter zur deutschen Version</a>
+            <a href="/taxi_final/en/">English version</a>
+          </body>
+          </html>
+          EOF
+
+      - name: Suppress Jekyll (_next/ dirs get swallowed otherwise)
+        run: touch out/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0

@@ -1,0 +1,85 @@
+# Apache configuration for Next.js static export (output: 'export')
+# This file is copied to out/.htaccess by `next build`.
+
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # 1. 301 Redirect taxialica.de & www.taxialica.de -> https://taxi-alica.de
+    RewriteCond %{HTTP_HOST} ^(www\.)?taxialica\.de$ [NC]
+    RewriteRule ^(.*)$ https://taxi-alica.de/$1 [R=301,L]
+
+    # 2. 301 Redirect www.taxi-alica.de -> https://taxi-alica.de
+    RewriteCond %{HTTP_HOST} ^www\.taxi-alica\.de$ [NC]
+    RewriteRule ^(.*)$ https://taxi-alica.de/$1 [R=301,L]
+
+    # 3. Force HTTPS (when behind standard SSL or reverse proxy)
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+    RewriteCond %{HTTP:X-Forwarded-SSL} !on [NC]
+    RewriteRule ^(.*)$ https://taxi-alica.de/$1 [R=301,L]
+
+    # --- NEXT.JS STATIC ROUTING OPTIMIZATIONS ---
+    # 1. Allow the _next folder and assets to be served directly without further rewriting
+    RewriteCond %{REQUEST_URI} ^/_next/.*$
+    RewriteRule ^ - [L]
+
+    # 2. Automatically resolve extensionless URLs to .html (e.g. /kontakt -> /kontakt.html)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.html -f
+    RewriteRule ^(.*)$ $1.html [L]
+    # ---------------------------------------------
+
+    # 4. Root → primary language (German)
+    RewriteRule ^$ de/ [R=301,L]
+</IfModule>
+
+# Custom 404 page
+ErrorDocument 404 /404.html
+
+# Serve pre-compressed assets if available
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json
+</IfModule>
+
+# Cache static Next.js chunks (content-hashed filenames)
+<IfModule mod_expires.c>
+    ExpiresActive On
+    # Hashed assets — cache 1 year
+    <FilesMatch "\.(js|css|woff2?)$">
+        ExpiresDefault "access plus 1 year"
+    </FilesMatch>
+    # HTML pages — no cache (may be redeployed)
+    <FilesMatch "\.html$">
+        ExpiresDefault "access plus 0 seconds"
+    </FilesMatch>
+</IfModule>
+
+# MIME types
+<IfModule mod_mime.c>
+    AddType application/javascript .js .mjs
+    AddType text/css .css
+    AddType application/json .json
+    AddType application/geo+json .geojson
+    AddType font/woff2 .woff2
+    AddType image/svg+xml .svg
+    AddType image/x-icon .ico
+</IfModule>
+
+# Byte-range and Cache-Control headers (safely wrapped in mod_headers)
+<IfModule mod_headers.c>
+    <FilesMatch "\.html$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
+    <FilesMatch "\.pmtiles$">
+        Header set Accept-Ranges bytes
+        Header set Access-Control-Allow-Origin "*"
+        Header set Access-Control-Allow-Headers "Range"
+        Header set Access-Control-Expose-Headers "Content-Range,Content-Length"
+    </FilesMatch>
+</IfModule>
+
+

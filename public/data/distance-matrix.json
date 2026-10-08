@@ -1,0 +1,926 @@
+{
+  "A5xB31_B31xBerlinerAllee": {
+    "meters": 12048,
+    "seconds": 735
+  },
+  "A5xB31_B31xBismarckallee": {
+    "meters": 12523,
+    "seconds": 832
+  },
+  "A5xB31_B31xSchwarzwaldstr": {
+    "meters": 14765,
+    "seconds": 1188
+  },
+  "A5xB31_B31xLittenweiler": {
+    "meters": 19252,
+    "seconds": 1511
+  },
+  "A5xB31_B3xZaehringerStr": {
+    "meters": 14779,
+    "seconds": 1027
+  },
+  "A5xB31_B3xHabsburgerstr": {
+    "meters": 13880,
+    "seconds": 940
+  },
+  "A5xB31_B3xEschholzstr": {
+    "meters": 12665,
+    "seconds": 867
+  },
+  "A5xB31_B3xBaslerStr": {
+    "meters": 11447,
+    "seconds": 677
+  },
+  "A5xB31_B31axStGeorgen": {
+    "meters": 11651,
+    "seconds": 752
+  },
+  "A5xB31_HaslachB294": {
+    "meters": 9052,
+    "seconds": 459
+  },
+  "A5xB31_Rieselfeld": {
+    "meters": 9597,
+    "seconds": 571
+  },
+  "A5xB31_Ebnet": {
+    "meters": 17846,
+    "seconds": 1485
+  },
+  "A5xB31_Landwasser": {
+    "meters": 14225,
+    "seconds": 941
+  },
+  "A5xB31_Tiengen": {
+    "meters": 21480,
+    "seconds": 1210
+  },
+  "A5xB31_HbfZOB": {
+    "meters": 12681,
+    "seconds": 839
+  },
+  "A5xB31_Muenster": {
+    "meters": 14126,
+    "seconds": 1036
+  },
+  "A5xB31_Stadion": {
+    "meters": 14746,
+    "seconds": 882
+  },
+  "A5xB31_BaselExit": {
+    "meters": 67914,
+    "seconds": 3077
+  },
+  "A5xB31_KarlsruheExit": {
+    "meters": 121943,
+    "seconds": 5121
+  },
+  "A5xB31_FrankfurtExit": {
+    "meters": 274769,
+    "seconds": 9811
+  },
+  "A5xB31_MunichExit": {
+    "meters": 432637,
+    "seconds": 15187
+  },
+  "B31xBerlinerAllee_B31xBismarckallee": {
+    "meters": 1002,
+    "seconds": 128
+  },
+  "B31xBerlinerAllee_B31xSchwarzwaldstr": {
+    "meters": 3244,
+    "seconds": 484
+  },
+  "B31xBerlinerAllee_B31xLittenweiler": {
+    "meters": 7731,
+    "seconds": 807
+  },
+  "B31xBerlinerAllee_B3xZaehringerStr": {
+    "meters": 3339,
+    "seconds": 360
+  },
+  "B31xBerlinerAllee_B3xHabsburgerstr": {
+    "meters": 2218,
+    "seconds": 239
+  },
+  "B31xBerlinerAllee_B3xEschholzstr": {
+    "meters": 1003,
+    "seconds": 165
+  },
+  "B31xBerlinerAllee_B3xBaslerStr": {
+    "meters": 1008,
+    "seconds": 99
+  },
+  "B31xBerlinerAllee_B31axStGeorgen": {
+    "meters": 3769,
+    "seconds": 433
+  },
+  "B31xBerlinerAllee_HaslachB294": {
+    "meters": 4779,
+    "seconds": 388
+  },
+  "B31xBerlinerAllee_Rieselfeld": {
+    "meters": 5134,
+    "seconds": 438
+  },
+  "B31xBerlinerAllee_Ebnet": {
+    "meters": 6325,
+    "seconds": 781
+  },
+  "B31xBerlinerAllee_Landwasser": {
+    "meters": 7212,
+    "seconds": 563
+  },
+  "B31xBerlinerAllee_Tiengen": {
+    "meters": 14161,
+    "seconds": 795
+  },
+  "B31xBerlinerAllee_HbfZOB": {
+    "meters": 1019,
+    "seconds": 137
+  },
+  "B31xBerlinerAllee_Muenster": {
+    "meters": 2464,
+    "seconds": 334
+  },
+  "B31xBerlinerAllee_Stadion": {
+    "meters": 7733,
+    "seconds": 505
+  },
+  "B31xBerlinerAllee_BaselExit": {
+    "meters": 69770,
+    "seconds": 3005
+  },
+  "B31xBerlinerAllee_KarlsruheExit": {
+    "meters": 114624,
+    "seconds": 4705
+  },
+  "B31xBerlinerAllee_FrankfurtExit": {
+    "meters": 267449,
+    "seconds": 9395
+  },
+  "B31xBerlinerAllee_MunichExit": {
+    "meters": 425317,
+    "seconds": 14771
+  },
+  "B31xBismarckallee_B31xSchwarzwaldstr": {
+    "meters": 2632,
+    "seconds": 437
+  },
+  "B31xBismarckallee_B31xLittenweiler": {
+    "meters": 7118,
+    "seconds": 760
+  },
+  "B31xBismarckallee_B3xZaehringerStr": {
+    "meters": 3669,
+    "seconds": 408
+  },
+  "B31xBismarckallee_B3xHabsburgerstr": {
+    "meters": 2548,
+    "seconds": 287
+  },
+  "B31xBismarckallee_B3xEschholzstr": {
+    "meters": 1333,
+    "seconds": 213
+  },
+  "B31xBismarckallee_B3xBaslerStr": {
+    "meters": 1278,
+    "seconds": 167
+  },
+  "B31xBismarckallee_B31axStGeorgen": {
+    "meters": 4050,
+    "seconds": 501
+  },
+  "B31xBismarckallee_HaslachB294": {
+    "meters": 5060,
+    "seconds": 456
+  },
+  "B31xBismarckallee_Rieselfeld": {
+    "meters": 7162,
+    "seconds": 495
+  },
+  "B31xBismarckallee_Ebnet": {
+    "meters": 5713,
+    "seconds": 734
+  },
+  "B31xBismarckallee_Landwasser": {
+    "meters": 7359,
+    "seconds": 593
+  },
+  "B31xBismarckallee_Tiengen": {
+    "meters": 14308,
+    "seconds": 825
+  },
+  "B31xBismarckallee_HbfZOB": {
+    "meters": 1349,
+    "seconds": 185
+  },
+  "B31xBismarckallee_Muenster": {
+    "meters": 2098,
+    "seconds": 373
+  },
+  "B31xBismarckallee_Stadion": {
+    "meters": 7880,
+    "seconds": 535
+  },
+  "B31xBismarckallee_BaselExit": {
+    "meters": 69916,
+    "seconds": 3036
+  },
+  "B31xBismarckallee_KarlsruheExit": {
+    "meters": 114770,
+    "seconds": 4736
+  },
+  "B31xBismarckallee_FrankfurtExit": {
+    "meters": 267596,
+    "seconds": 9426
+  },
+  "B31xBismarckallee_MunichExit": {
+    "meters": 425464,
+    "seconds": 14802
+  },
+  "B31xSchwarzwaldstr_B31xLittenweiler": {
+    "meters": 2669,
+    "seconds": 396
+  },
+  "B31xSchwarzwaldstr_B3xZaehringerStr": {
+    "meters": 4985,
+    "seconds": 722
+  },
+  "B31xSchwarzwaldstr_B3xHabsburgerstr": {
+    "meters": 4013,
+    "seconds": 623
+  },
+  "B31xSchwarzwaldstr_B3xEschholzstr": {
+    "meters": 3697,
+    "seconds": 593
+  },
+  "B31xSchwarzwaldstr_B3xBaslerStr": {
+    "meters": 3642,
+    "seconds": 547
+  },
+  "B31xSchwarzwaldstr_B31axStGeorgen": {
+    "meters": 6414,
+    "seconds": 881
+  },
+  "B31xSchwarzwaldstr_HaslachB294": {
+    "meters": 7424,
+    "seconds": 836
+  },
+  "B31xSchwarzwaldstr_Rieselfeld": {
+    "meters": 9526,
+    "seconds": 875
+  },
+  "B31xSchwarzwaldstr_Ebnet": {
+    "meters": 3766,
+    "seconds": 418
+  },
+  "B31xSchwarzwaldstr_Landwasser": {
+    "meters": 9723,
+    "seconds": 973
+  },
+  "B31xSchwarzwaldstr_Tiengen": {
+    "meters": 16672,
+    "seconds": 1205
+  },
+  "B31xSchwarzwaldstr_HbfZOB": {
+    "meters": 3713,
+    "seconds": 565
+  },
+  "B31xSchwarzwaldstr_Muenster": {
+    "meters": 3052,
+    "seconds": 516
+  },
+  "B31xSchwarzwaldstr_Stadion": {
+    "meters": 10244,
+    "seconds": 915
+  },
+  "B31xSchwarzwaldstr_BaselExit": {
+    "meters": 72280,
+    "seconds": 3416
+  },
+  "B31xSchwarzwaldstr_KarlsruheExit": {
+    "meters": 117134,
+    "seconds": 5116
+  },
+  "B31xSchwarzwaldstr_FrankfurtExit": {
+    "meters": 269960,
+    "seconds": 9806
+  },
+  "B31xSchwarzwaldstr_MunichExit": {
+    "meters": 427828,
+    "seconds": 15182
+  },
+  "B31xLittenweiler_B3xZaehringerStr": {
+    "meters": 9594,
+    "seconds": 1026
+  },
+  "B31xLittenweiler_B3xHabsburgerstr": {
+    "meters": 8622,
+    "seconds": 927
+  },
+  "B31xLittenweiler_B3xEschholzstr": {
+    "meters": 8306,
+    "seconds": 897
+  },
+  "B31xLittenweiler_B3xBaslerStr": {
+    "meters": 8251,
+    "seconds": 851
+  },
+  "B31xLittenweiler_B31axStGeorgen": {
+    "meters": 11023,
+    "seconds": 1185
+  },
+  "B31xLittenweiler_HaslachB294": {
+    "meters": 12033,
+    "seconds": 1140
+  },
+  "B31xLittenweiler_Rieselfeld": {
+    "meters": 14134,
+    "seconds": 1179
+  },
+  "B31xLittenweiler_Ebnet": {
+    "meters": 3017,
+    "seconds": 344
+  },
+  "B31xLittenweiler_Landwasser": {
+    "meters": 14332,
+    "seconds": 1278
+  },
+  "B31xLittenweiler_Tiengen": {
+    "meters": 21280,
+    "seconds": 1510
+  },
+  "B31xLittenweiler_HbfZOB": {
+    "meters": 8322,
+    "seconds": 870
+  },
+  "B31xLittenweiler_Muenster": {
+    "meters": 7661,
+    "seconds": 821
+  },
+  "B31xLittenweiler_Stadion": {
+    "meters": 14853,
+    "seconds": 1219
+  },
+  "B31xLittenweiler_BaselExit": {
+    "meters": 76889,
+    "seconds": 3720
+  },
+  "B31xLittenweiler_KarlsruheExit": {
+    "meters": 121743,
+    "seconds": 5420
+  },
+  "B31xLittenweiler_FrankfurtExit": {
+    "meters": 274569,
+    "seconds": 10110
+  },
+  "B31xLittenweiler_MunichExit": {
+    "meters": 403001,
+    "seconds": 15093
+  },
+  "B3xZaehringerStr_B3xHabsburgerstr": {
+    "meters": 2381,
+    "seconds": 342
+  },
+  "B3xZaehringerStr_B3xEschholzstr": {
+    "meters": 3392,
+    "seconds": 451
+  },
+  "B3xZaehringerStr_B3xBaslerStr": {
+    "meters": 4694,
+    "seconds": 544
+  },
+  "B3xZaehringerStr_B31axStGeorgen": {
+    "meters": 7455,
+    "seconds": 878
+  },
+  "B3xZaehringerStr_HaslachB294": {
+    "meters": 10021,
+    "seconds": 796
+  },
+  "B3xZaehringerStr_Rieselfeld": {
+    "meters": 9267,
+    "seconds": 761
+  },
+  "B3xZaehringerStr_Ebnet": {
+    "meters": 9104,
+    "seconds": 1180
+  },
+  "B3xZaehringerStr_Landwasser": {
+    "meters": 6526,
+    "seconds": 683
+  },
+  "B3xZaehringerStr_Tiengen": {
+    "meters": 16737,
+    "seconds": 1129
+  },
+  "B3xZaehringerStr_HbfZOB": {
+    "meters": 3709,
+    "seconds": 482
+  },
+  "B3xZaehringerStr_Muenster": {
+    "meters": 3387,
+    "seconds": 472
+  },
+  "B3xZaehringerStr_Stadion": {
+    "meters": 3922,
+    "seconds": 484
+  },
+  "B3xZaehringerStr_BaselExit": {
+    "meters": 72346,
+    "seconds": 3340
+  },
+  "B3xZaehringerStr_KarlsruheExit": {
+    "meters": 111443,
+    "seconds": 4753
+  },
+  "B3xZaehringerStr_FrankfurtExit": {
+    "meters": 264269,
+    "seconds": 9443
+  },
+  "B3xZaehringerStr_MunichExit": {
+    "meters": 422137,
+    "seconds": 14819
+  },
+  "B3xHabsburgerstr_B3xEschholzstr": {
+    "meters": 1346,
+    "seconds": 188
+  },
+  "B3xHabsburgerstr_B3xBaslerStr": {
+    "meters": 2648,
+    "seconds": 282
+  },
+  "B3xHabsburgerstr_B31axStGeorgen": {
+    "meters": 5409,
+    "seconds": 616
+  },
+  "B3xHabsburgerstr_HaslachB294": {
+    "meters": 6419,
+    "seconds": 571
+  },
+  "B3xHabsburgerstr_Rieselfeld": {
+    "meters": 6774,
+    "seconds": 621
+  },
+  "B3xHabsburgerstr_Ebnet": {
+    "meters": 7188,
+    "seconds": 941
+  },
+  "B3xHabsburgerstr_Landwasser": {
+    "meters": 8531,
+    "seconds": 720
+  },
+  "B3xHabsburgerstr_Tiengen": {
+    "meters": 15479,
+    "seconds": 952
+  },
+  "B3xHabsburgerstr_HbfZOB": {
+    "meters": 1663,
+    "seconds": 219
+  },
+  "B3xHabsburgerstr_Muenster": {
+    "meters": 1472,
+    "seconds": 233
+  },
+  "B3xHabsburgerstr_Stadion": {
+    "meters": 3417,
+    "seconds": 438
+  },
+  "B3xHabsburgerstr_BaselExit": {
+    "meters": 71088,
+    "seconds": 3163
+  },
+  "B3xHabsburgerstr_KarlsruheExit": {
+    "meters": 115942,
+    "seconds": 4863
+  },
+  "B3xHabsburgerstr_FrankfurtExit": {
+    "meters": 268768,
+    "seconds": 9553
+  },
+  "B3xHabsburgerstr_MunichExit": {
+    "meters": 426636,
+    "seconds": 14929
+  },
+  "B3xEschholzstr_B3xBaslerStr": {
+    "meters": 1305,
+    "seconds": 131
+  },
+  "B3xEschholzstr_B31axStGeorgen": {
+    "meters": 4067,
+    "seconds": 465
+  },
+  "B3xEschholzstr_HaslachB294": {
+    "meters": 5076,
+    "seconds": 420
+  },
+  "B3xEschholzstr_Rieselfeld": {
+    "meters": 5431,
+    "seconds": 470
+  },
+  "B3xEschholzstr_Ebnet": {
+    "meters": 6867,
+    "seconds": 842
+  },
+  "B3xEschholzstr_Landwasser": {
+    "meters": 7188,
+    "seconds": 569
+  },
+  "B3xEschholzstr_Tiengen": {
+    "meters": 14136,
+    "seconds": 801
+  },
+  "B3xEschholzstr_HbfZOB": {
+    "meters": 320,
+    "seconds": 69
+  },
+  "B3xEschholzstr_Muenster": {
+    "meters": 1788,
+    "seconds": 282
+  },
+  "B3xEschholzstr_Stadion": {
+    "meters": 4302,
+    "seconds": 471
+  },
+  "B3xEschholzstr_BaselExit": {
+    "meters": 69745,
+    "seconds": 3012
+  },
+  "B3xEschholzstr_KarlsruheExit": {
+    "meters": 114599,
+    "seconds": 4712
+  },
+  "B3xEschholzstr_FrankfurtExit": {
+    "meters": 267425,
+    "seconds": 9402
+  },
+  "B3xEschholzstr_MunichExit": {
+    "meters": 425293,
+    "seconds": 14778
+  },
+  "B3xBaslerStr_B31axStGeorgen": {
+    "meters": 2922,
+    "seconds": 395
+  },
+  "B3xBaslerStr_HaslachB294": {
+    "meters": 4262,
+    "seconds": 356
+  },
+  "B3xBaslerStr_Rieselfeld": {
+    "meters": 4617,
+    "seconds": 405
+  },
+  "B3xBaslerStr_Ebnet": {
+    "meters": 6803,
+    "seconds": 863
+  },
+  "B3xBaslerStr_Landwasser": {
+    "meters": 7831,
+    "seconds": 636
+  },
+  "B3xBaslerStr_Tiengen": {
+    "meters": 14780,
+    "seconds": 868
+  },
+  "B3xBaslerStr_HbfZOB": {
+    "meters": 1638,
+    "seconds": 211
+  },
+  "B3xBaslerStr_Muenster": {
+    "meters": 3083,
+    "seconds": 408
+  },
+  "B3xBaslerStr_Stadion": {
+    "meters": 8352,
+    "seconds": 578
+  },
+  "B3xBaslerStr_BaselExit": {
+    "meters": 65772,
+    "seconds": 3003
+  },
+  "B3xBaslerStr_KarlsruheExit": {
+    "meters": 115243,
+    "seconds": 4779
+  },
+  "B3xBaslerStr_FrankfurtExit": {
+    "meters": 268068,
+    "seconds": 9469
+  },
+  "B3xBaslerStr_MunichExit": {
+    "meters": 425936,
+    "seconds": 14845
+  },
+  "B31axStGeorgen_HaslachB294": {
+    "meters": 4256,
+    "seconds": 396
+  },
+  "B31axStGeorgen_Rieselfeld": {
+    "meters": 4611,
+    "seconds": 446
+  },
+  "B31axStGeorgen_Ebnet": {
+    "meters": 9383,
+    "seconds": 1156
+  },
+  "B31axStGeorgen_Landwasser": {
+    "meters": 9239,
+    "seconds": 815
+  },
+  "B31axStGeorgen_Tiengen": {
+    "meters": 16494,
+    "seconds": 1085
+  },
+  "B31axStGeorgen_HbfZOB": {
+    "meters": 4218,
+    "seconds": 510
+  },
+  "B31axStGeorgen_Muenster": {
+    "meters": 5663,
+    "seconds": 707
+  },
+  "B31axStGeorgen_Stadion": {
+    "meters": 9760,
+    "seconds": 757
+  },
+  "B31axStGeorgen_BaselExit": {
+    "meters": 65766,
+    "seconds": 3044
+  },
+  "B31axStGeorgen_KarlsruheExit": {
+    "meters": 116957,
+    "seconds": 4995
+  },
+  "B31axStGeorgen_FrankfurtExit": {
+    "meters": 269783,
+    "seconds": 9685
+  },
+  "B31axStGeorgen_MunichExit": {
+    "meters": 427651,
+    "seconds": 15061
+  },
+  "HaslachB294_Rieselfeld": {
+    "meters": 2861,
+    "seconds": 239
+  },
+  "HaslachB294_Ebnet": {
+    "meters": 8795,
+    "seconds": 1026
+  },
+  "HaslachB294_Landwasser": {
+    "meters": 7489,
+    "seconds": 609
+  },
+  "HaslachB294_Tiengen": {
+    "meters": 14744,
+    "seconds": 878
+  },
+  "HaslachB294_HbfZOB": {
+    "meters": 3629,
+    "seconds": 380
+  },
+  "HaslachB294_Muenster": {
+    "meters": 5075,
+    "seconds": 577
+  },
+  "HaslachB294_Stadion": {
+    "meters": 8009,
+    "seconds": 550
+  },
+  "HaslachB294_BaselExit": {
+    "meters": 64015,
+    "seconds": 2837
+  },
+  "HaslachB294_KarlsruheExit": {
+    "meters": 115207,
+    "seconds": 4789
+  },
+  "HaslachB294_FrankfurtExit": {
+    "meters": 268032,
+    "seconds": 9479
+  },
+  "HaslachB294_MunichExit": {
+    "meters": 425900,
+    "seconds": 14855
+  },
+  "Rieselfeld_Ebnet": {
+    "meters": 11873,
+    "seconds": 1168
+  },
+  "Rieselfeld_Landwasser": {
+    "meters": 5961,
+    "seconds": 536
+  },
+  "Rieselfeld_Tiengen": {
+    "meters": 13216,
+    "seconds": 805
+  },
+  "Rieselfeld_HbfZOB": {
+    "meters": 6567,
+    "seconds": 525
+  },
+  "Rieselfeld_Muenster": {
+    "meters": 8012,
+    "seconds": 721
+  },
+  "Rieselfeld_Stadion": {
+    "meters": 6481,
+    "seconds": 478
+  },
+  "Rieselfeld_BaselExit": {
+    "meters": 62495,
+    "seconds": 2792
+  },
+  "Rieselfeld_KarlsruheExit": {
+    "meters": 113678,
+    "seconds": 4716
+  },
+  "Rieselfeld_FrankfurtExit": {
+    "meters": 266504,
+    "seconds": 9406
+  },
+  "Rieselfeld_MunichExit": {
+    "meters": 424372,
+    "seconds": 14782
+  },
+  "Ebnet_Landwasser": {
+    "meters": 12786,
+    "seconds": 1265
+  },
+  "Ebnet_Tiengen": {
+    "meters": 19735,
+    "seconds": 1496
+  },
+  "Ebnet_HbfZOB": {
+    "meters": 6776,
+    "seconds": 856
+  },
+  "Ebnet_Muenster": {
+    "meters": 6115,
+    "seconds": 808
+  },
+  "Ebnet_Stadion": {
+    "meters": 13307,
+    "seconds": 1206
+  },
+  "Ebnet_BaselExit": {
+    "meters": 75344,
+    "seconds": 3707
+  },
+  "Ebnet_KarlsruheExit": {
+    "meters": 120198,
+    "seconds": 5407
+  },
+  "Ebnet_FrankfurtExit": {
+    "meters": 273023,
+    "seconds": 10097
+  },
+  "Ebnet_MunichExit": {
+    "meters": 402524,
+    "seconds": 14977
+  },
+  "Landwasser_Tiengen": {
+    "meters": 13356,
+    "seconds": 885
+  },
+  "Landwasser_HbfZOB": {
+    "meters": 8110,
+    "seconds": 687
+  },
+  "Landwasser_Muenster": {
+    "meters": 7307,
+    "seconds": 859
+  },
+  "Landwasser_Stadion": {
+    "meters": 3781,
+    "seconds": 398
+  },
+  "Landwasser_BaselExit": {
+    "meters": 68964,
+    "seconds": 3096
+  },
+  "Landwasser_KarlsruheExit": {
+    "meters": 113819,
+    "seconds": 4796
+  },
+  "Landwasser_FrankfurtExit": {
+    "meters": 266644,
+    "seconds": 9486
+  },
+  "Landwasser_MunichExit": {
+    "meters": 424512,
+    "seconds": 14862
+  },
+  "Tiengen_HbfZOB": {
+    "meters": 14449,
+    "seconds": 882
+  },
+  "Tiengen_Muenster": {
+    "meters": 15894,
+    "seconds": 1078
+  },
+  "Tiengen_Stadion": {
+    "meters": 14634,
+    "seconds": 860
+  },
+  "Tiengen_BaselExit": {
+    "meters": 71022,
+    "seconds": 3107
+  },
+  "Tiengen_KarlsruheExit": {
+    "meters": 110199,
+    "seconds": 4788
+  },
+  "Tiengen_FrankfurtExit": {
+    "meters": 263025,
+    "seconds": 9478
+  },
+  "Tiengen_MunichExit": {
+    "meters": 420892,
+    "seconds": 14854
+  },
+  "HbfZOB_Muenster": {
+    "meters": 1953,
+    "seconds": 306
+  },
+  "HbfZOB_Stadion": {
+    "meters": 4467,
+    "seconds": 495
+  },
+  "HbfZOB_BaselExit": {
+    "meters": 69910,
+    "seconds": 3036
+  },
+  "HbfZOB_KarlsruheExit": {
+    "meters": 114764,
+    "seconds": 4736
+  },
+  "HbfZOB_FrankfurtExit": {
+    "meters": 267590,
+    "seconds": 9426
+  },
+  "HbfZOB_MunichExit": {
+    "meters": 425458,
+    "seconds": 14802
+  },
+  "Muenster_Stadion": {
+    "meters": 4823,
+    "seconds": 607
+  },
+  "Muenster_BaselExit": {
+    "meters": 71380,
+    "seconds": 3283
+  },
+  "Muenster_KarlsruheExit": {
+    "meters": 116234,
+    "seconds": 4983
+  },
+  "Muenster_FrankfurtExit": {
+    "meters": 269060,
+    "seconds": 9673
+  },
+  "Muenster_MunichExit": {
+    "meters": 426927,
+    "seconds": 15049
+  },
+  "Stadion_BaselExit": {
+    "meters": 69616,
+    "seconds": 3061
+  },
+  "Stadion_KarlsruheExit": {
+    "meters": 110269,
+    "seconds": 4749
+  },
+  "Stadion_FrankfurtExit": {
+    "meters": 263095,
+    "seconds": 9439
+  },
+  "Stadion_MunichExit": {
+    "meters": 420963,
+    "seconds": 14815
+  },
+  "BaselExit_KarlsruheExit": {
+    "meters": 169267,
+    "seconds": 6975
+  },
+  "BaselExit_FrankfurtExit": {
+    "meters": 324927,
+    "seconds": 11665
+  },
+  "BaselExit_MunichExit": {
+    "meters": 423570,
+    "seconds": 16580
+  },
+  "KarlsruheExit_FrankfurtExit": {
+    "meters": 185626,
+    "seconds": 7645
+  },
+  "KarlsruheExit_MunichExit": {
+    "meters": 344866,
+    "seconds": 13061
+  },
+  "FrankfurtExit_MunichExit": {
+    "meters": 386500,
+    "seconds": 13775
+  }
+}

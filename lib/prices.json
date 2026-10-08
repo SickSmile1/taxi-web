@@ -1,0 +1,9 @@
+{
+  "euroairport-basel": { "std": "180–200 €", "large": "+20 €" },
+  "flughafen-frankfurt": { "std": "650–700 €", "large": "+20 €" },
+  "karlsruhe-airport": { "std": "250–280 €", "large": "+20 €" },
+  "flughafen-stuttgart": { "std": "470–520 €", "large": "+20 €" },
+  "flughafen-zuerich": { "std": "400–450 €", "large": "+20 €" },
+  "flughafen-memmingen": { "std": "600–650 €", "large": "+20 €" },
+  "muenchen-airport": { "std": "700–800 €", "large": "+20 €" }
+}
